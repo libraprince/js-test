@@ -1,0 +1,18 @@
+.kratos-hentry{
+-webkit-transform:scale(1); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(1); /*Mozilla scale version*/
+-o-transform:scale(1); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+opacity: 0.9; /*initial opacity of images*/
+}
+.kratos-hentry:hover{
+-webkit-transform:scale(1.01); /*Webkit: Scale up image to 1.2x original size*/
+-moz-transform:scale(1.01); /*Mozilla scale version*/
+-o-transform:scale(1.01); /*Opera scale version*/
+box-shadow:2px 2px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+-webkit-box-shadow:2px 2px 30px gray; /*Safari shadow version*/
+-moz-box-shadow:5px 5px 10px gray; /*Mozilla shadow version*/
+text-align: right;
+}
